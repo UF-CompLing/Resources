@@ -8,12 +8,16 @@ Welcome to the Computational Linguistics Club's creative workspace! We're so exc
 
 We can get you oriented!
 
-- Never coded before?
-- Coded before, but never with us?
+- We use a variety of software.
+  * Download them [here](Downloads.md "Downloads").
+- We code in Python.
+  * Write your first program [here](Python.md "Python Basics").
+- We collaborate through "Git."
+  * Learn how to contribute [here](Git.md "Git Basics").
 
 ## Learn about our projects!
 
-We have tons of fantastic projects, just for you.
+We have tons of fantastic projects, just for you. 
 
 ## Reach out
 
