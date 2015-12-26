@@ -2,7 +2,7 @@
 
 Welcome to the Computational Linguistics Club's creative workspace! We're so excited to have you here.
 
-![CompLing][top-image]
+![CompLing][top-image =200px]
 
 ## Just getting started?
 
