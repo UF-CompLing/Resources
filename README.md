@@ -2,6 +2,8 @@
 
 Welcome to the Computational Linguistics Club's creative workspace! We're so excited to have you here.
 
+Don't forget that we meet at 5:30pm in the Heavener Building, room 240!
+
 <img src="images/symbolic-head.jpg" alt="TopImg" height="300px">
 
 ## Just getting started?
@@ -18,6 +20,8 @@ We can get you oriented!
 ## Learn about our projects!
 
 We have tons of fantastic projects, just for you. 
+
+This area is empty for now. Check back soon!
 
 ## Reach out
 
