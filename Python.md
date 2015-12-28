@@ -23,12 +23,14 @@ print(i)
 
 ```python
 import nltk
+
 nltk.download()
 ```
 
 #### Sample NLTK Parse tree
 ```python
 from nltk.corpus import treebank
+
 t = treebank.parsed_sents('wsj_0001.mrg')[0]
 t.draw()
 ```
