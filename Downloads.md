@@ -26,7 +26,7 @@ Learn about Git [here](Git.md "Git").
 Download PyCharm [here](https://www.jetbrains.com/pycharm/download/). The "Community" version is free, so we recommend that one.
 
 So what is an IDE anyway?
-* Here's [our](IDE.md) TLDR on what to type on.
+* Here's [our](IDEandTextEditors.md) TLDR on what to type on.
 * Here's [Wikipedia's](https://en.wikipedia.org/wiki/Integrated_development_environment).
 * Here's a good [Mashable](http://mashable.com/2010/10/06/ide-guide/#8ixAwksnyuqZ) article.
 
