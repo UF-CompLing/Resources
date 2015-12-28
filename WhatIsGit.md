@@ -12,7 +12,7 @@ Bob and Samantha work at Spotify. Bob tries to make the app a little faster. He 
 
 Samantha, however, is working specifically on bringing Kanye West's Yeezus album to the Spotify platform.
 
-What now? Samantha would have to wait for Bob to finish his feature before she started hers, or vice versa. Further, they wouldn't want Spotify listeners impacted by any development happening in the background!
+What now? Samantha would have to wait for Bob to finish his feature before she started hers, or vice versa. But that's not just it! They wouldn't want Spotify listeners impacted by any development happening in the background!
 
 #### With Version Control
 
