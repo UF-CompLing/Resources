@@ -61,4 +61,8 @@ When he's done, he'll merge the better version into Speed, and then he'll merge 
 
 Not at all! However, Git is certainly the most common among the classes and classmates at UF. That's why it will be used for the Computational Linguistics Club.
 
+#### Where can I find more information?
+
+Check out the official documentation [here](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control).
+
 [Top of Page](#what-is-version-control)
