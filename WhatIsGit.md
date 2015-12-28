@@ -37,7 +37,7 @@ Please be careful in how you name branches. Name them based on the work that you
  * Bob
  * Samantha
 
-[Top of Page](#whatisversioncontrol)
+[Top of Page](#what-is-version-control)
 
 ## Questions you may have:
 
@@ -61,4 +61,4 @@ When he's done, he'll merge the better version into Speed, and then he'll merge 
 
 Not at all! However, Git is certainly the most common among the classes and classmates at UF. That's why it will be used for the Computational Linguistics Club.
 
-[Top of Page](#whatisgit)
+[Top of Page](#what-is-version-control)
