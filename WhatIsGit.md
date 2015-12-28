@@ -1,8 +1,12 @@
-## What is Git?
+[Back](Git.md "Git")
 
-According to Wikipedia: "Git is a widely-used version control system for software development." Meaning, in large software projects there will be many contributors. If every contributor works out of the same code, it would be difficult to keep track of all the changes made at any given time. 
+## What is Version Control?
 
-#### Without Git
+According to Wikipedia: "Git is a widely-used version control system for software development." Well, what is Version Control?
+
+In large software projects there will be many contributors. If every contributor works out of the same code, it would be difficult to keep track of all the changes made at any given time. 
+
+#### Without Version Control
 
 Bob and Samantha work at Spotify. Bob tries to make the app a little faster. He makes an alteration to the code -- everything works, but whenever you try to listen to Kanye West, everything breaks. It's a step in the right direction, so Bob decides it's worth saving. He'll fix the Kanye West situation later.
 
@@ -10,7 +14,7 @@ Samantha, however, is working specifically on bringing Kanye West's Yeezus album
 
 What now? Samantha would have to wait for Bob to finish his feature before she started hers, or vice versa. Further, they wouldn't want Spotify listeners impacted by any development happening in the background!
 
-#### With Git
+#### With Version Control
 
 Git solves problems such as these. Through "branches," both Bob and Samantha may work on the same code base, while not impacting the other's progress.
 
@@ -33,7 +37,13 @@ Please be careful in how you name branches. Name them based on the work that you
  * Bob
  * Samantha
 
+[Top of Page](#whatisversioncontrol)
+
 ## Questions you may have:
+
+#### How common is Version Control in "the real world"?
+
+Some version of Version Control is used in almost every big-scale project in industry.
 
 #### Can you make branches of branches?
 
@@ -46,3 +56,9 @@ Absolutely! Say if, during Bob's work on Speed, he found that he could use two m
  * Yeezus
 
 When he's done, he'll merge the better version into Speed, and then he'll merge THAT into Master. Easy! 
+
+#### Is Git the only version of Version Control?
+
+Not at all! However, Git is certainly the most common among the classes and classmates at UF. That's why it will be used for the Computational Linguistics Club.
+
+[Top of Page](#whatisgit)
