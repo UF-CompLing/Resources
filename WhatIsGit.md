@@ -8,7 +8,7 @@ In large software projects there will be many contributors. If every contributor
 
 #### Without Version Control
 
-Bob and Samantha work at Spotify. Bob tries to make the app a little faster. He makes an alteration to the code -- everything works, but whenever you try to listen to Kanye West, everything breaks. It's a step in the right direction, so Bob decides it's worth saving. He'll fix the Kanye West situation later.
+Bob and Samantha work at Spotify. Bob tries to make the app a little faster. He makes an alteration to the code -- everything works, but whenever you try to listen to Kanye West, the app crashes. It's a step in the right direction, so Bob decides it's worth saving. He'll fix the Kanye West situation later.
 
 Samantha, however, is working specifically on bringing Kanye West's Yeezus album to the Spotify platform.
 
