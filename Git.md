@@ -21,7 +21,6 @@ GitHub hosts all of our projects online, free of charge. Having an account allow
 
 ## Basic Commands
 
-Note: Most of our projects will be in the Python programming language, and we will be working out of a tool called PyCharm. You can do Git through PyCharm.
+[Here](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) is the official documentation.
 
-[This](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) is a good tutorial of proper commands if you're working from the Command Line.
-
+Note: Most of our projects will be in the Python programming language, and on an "Integrated Development Environment" called PyCharm. You can perform these commands through PyCharm.
