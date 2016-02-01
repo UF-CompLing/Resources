@@ -51,9 +51,15 @@ If I wanted to try and identify groups of stocks (within the 500 I have data on)
 
 However if I knew that within my data about stocks that there were 3 different groups: small, medium, and large companies for instance and that each fell within a certain range of stock price, then the task of trying to identify groups of stocks could be considered a supervised learning task, because I'm classifying using existing data, **training data**.
 
-A potentially more relevant example might be the task of part-of-speech (POS) tagging in **Natural Language Processing**. Using existing knowledge about words to try and label them might be considered **supervised learning**, but if you just tried to group them based on their position in relation to each then the task could be considered **unsupervised**.
+A potentially more relevant example might be the task of part-of-speech (POS) tagging in **Natural Language Processing**. Using existing knowledge about words to try and label them might be considered **supervised learning**, but if you just tried to group them based on their position in relation to each then the task could be considered **unsupervised learning**.
 
 ## The Challenges
+
+This can get technical really quickly, but I'll try and be brief. 
+
+Ideally, data is always perfect, there already exists a model/method which fits the problem, and there are no problems whatsoever. **This never happens**.
+
+Data Mining is always a human-guided task because of these kinds of complications: dirty data, bad models, unclear results, code bugs, etc. All of these problems apply to machine learning as well, except that there is the hope that, because only very specific problems are being handled, that the system can be built, tested, and left to run on its own after exhaustive effort.
 
 * Scalability
 * High Dimensionality
@@ -79,9 +85,13 @@ https://en.wikipedia.org/wiki/Predictive_modelling
 
 https://en.wikipedia.org/wiki/Anomaly_detection
 
-## The Take-Away (from the perspective of Computational Linguistics)
+## The Take-Away i.e. "Why Do We Care?"
+
+
 
 ## References
 
 * *Introduction to Data Mining* by Tan, Steinbach, and Kumar
-* *Stack exchange discussion* http://stats.stackexchange.com/questions/5026/what-is-the-difference-between-data-mining-statistics-machine-learning-and-ai
+* *Data Mining vs. Machine Learning (and other fields)* http://stats.stackexchange.com/questions/5026/what-is-the-difference-between-data-mining-statistics-machine-learning-and-ai
+* *Supervised vs. Unsupervised* https://www.quora.com/What-is-the-difference-between-supervised-and-unsupervised-learning-algorithms
+* *A Wiki Breakdown of Alan Turing's seminal paper on AI, "Computing Machinery and Intelligence* https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence
