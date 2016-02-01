@@ -24,17 +24,17 @@ Another way to think about these fields is by the degree of automation that is s
 * **Machine Learning:** programming with the end goal of allowing machines/processes to improve on their own, without human intervention
 * **Artificial Intelligence:** the stretch goal machine learning, complete automation
 
-To use a single example to highlight the comparison, imagine a scenario where a researcher might be trying to monitor seismic events (earthquakes) and predict their occurence and magnitude. Each field might have its own approach.
+**Example** To use a single example to highlight the comparison, imagine a scenario where a researcher might be trying to monitor seismic events (earthquakes) and predict their occurence and magnitude. Each field might have its own approach.
 
-**A Statistician** might try and model the distrubtion of existing data, characterize that distribution in a way that is familiar (maybe a using a gamma distribution) and make predictions from that. At a stretch, **A Statistician** might build a time series model using collected data to make more accurate predictions with more details.
+**A Statistician** might try and model the distrubtion of existing data, characterize that distribution in a way that is familiar (maybe a using a gamma distribution) and make predictions from that. Beyond that, **a Statistician** might build a time series model using collected data to make more accurate predictions with more details.
 
-**A Data Scientist** (or Data Miner, but that sounds dumb) would have the know how to employ a system that regular (every second/minute/day) updates itself with the current seismic data, from which the **Data Scientist** can test different models to detect seismic anomalies and make predictions.
+**A Data Scientist** (or Data Miner, but that sounds dumb) would have the know how to employ a system that regularly (every second/minute/day) updates itself with the current seismic data, from which the **Data Scientist** can test different models to detect seismic anomalies and make predictions.
 
 **A Computer Scientist** would use **machine learning** techniques to build a system that regular checks for anomalous seismic events on its own and to alert those necessary when something of worth is detected. The dream would be a system sophisticated enough to recognize, classify, and predict different types of events all on its own. This would be a limited example of **Artificial Intelligence**.
 
 Keep in mind these are broad generalizations, but can be useful distinctions when comparing fields.
 
-** TL;DR Data Mining = Machine Learning with different goals, Artificial Intelligence and Statistics lend many ideas to both fields**
+** TL;DR Data Mining = Machine Learning with different goals. Data Mining generally involves finding new information from data or building better models beyond those that exist. Machine Learning seeks to allow machines to tackle known problems in an optimized fashion. Artificial Intelligence and Statistics lend many ideas to both fields**
 
 [A discussion of these fields and their relations](http://stats.stackexchange.com/questions/5026/what-is-the-difference-between-data-mining-statistics-machine-learning-and-ai)
 
@@ -44,6 +44,14 @@ All machine learning tasks can be roughly divided into two categories
 
 1. Supervised-Learning/Predictive Tasks
 2. Unsupervised-Learning/Descriptive Tasks
+
+**Example** I would like to carry out a series of analyses on stock data which I've collected, perhaps the stock values of 500 companies from January 1st to January 21st collected every 30 seconds (this is actually somewhat poor resolution for stock data).
+
+If I wanted to try and identify groups of stocks (within the 500 I have data on) that would be an unsupervised learning task, because I don't know what these potential groups look like. I'm hoping that whatever method I'm using will be able to identify these groups based solely on their attributes represented in the data.
+
+However if I knew that within my data about stocks that there were 3 different groups: small, medium, and large companies for instance and that each fell within a certain range of stock price, then the task of trying to identify groups of stocks could be considered a supervised learning task, because I'm classifying using existing data, **training data**.
+
+A potentially more relevant example might be the task of part-of-speech (POS) tagging in **Natural Language Processing**. Using existing knowledge about words to try and label them might be considered **supervised learning**, but if you just tried to group them based on their position in relation to each then the task could be considered **unsupervised**.
 
 ## The Challenges
 
