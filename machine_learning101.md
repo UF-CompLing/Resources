@@ -2,11 +2,30 @@
 
 ## Introduction
 
-The goal of this brief overview is to familiarize the audience (the computational linguistics club) with some of the ideas of machine learning and the aspects of natural language processing which are innately useful.
+The goal of this brief overview is to familiarize the audience with some of the ideas of machine learning and the aspects of natural language processing which are innately useful.
 
-A quick word on terminology:
+A quick few words on terminology:
 
-The terms **data mining**, **machine learning**, **artificial intelligent**, **statistics**, etc... are words that often bandied about, and while they may seem inately complicated, the general ideas and goals behind each field are relatively easily communicated.
+The terms **data mining**, **machine learning**, **artificial intelligence**, and **statistics**, etc... are words that often bandied about, and while they may seem inately complicated, the general ideas and goals behind each field are relatively easily communicated.
+
+* **Data Mining** refers to the process by which useful information is "mined" from data, typically by using sophisticated algorithms and procedures, many of which come from **machine learning**.
+* **Machine Learning** refers to the subset of problems encounted in trying to build ** Artificial Intelligence** or effective machines which has to do with allowing a computer to become better at a process as time passes.
+* **Statistics** itself is only tangentially related in that it is the field which substantiates a lot of the ideas and math behind the algorithms used in the fields mentioned above.
+
+Another way to think about these fields is by the degree of automation that is sought.
+
+**Statistics ==> Data Mining ==> Machine Learning ==> Artificial Intelligence**
+
+* **Statistics:** analysis largely carried out by hand, highly theoretical, or using small scripts
+* **Data Mining:** is done with scripting but is entirely guided by human effort
+* **Machine Learning:** programming with the end goal of allowing machines/processes to improve on their own
+* **Artificial Intelligence:** the stretch goal machine learning, complete automation
+
+Keep in mind these are broad generalizations, but can be useful distinctions when comparing fields.
+
+** TL;DR Data Mining = Machine Learning with different goals, Artificial Intelligence and Statistics lend many ideas to both fields**
+
+*[A discussion of these fields and their relations](http://stats.stackexchange.com/questions/5026/what-is-the-difference-between-data-mining-statistics-machine-learning-and-ai)
 
 Generally speaking, there is a good deal of overlap in each field and 
 
@@ -16,11 +35,10 @@ The question is, what does this mean?
 
 ## The Tasks
 
-All machine learning
+All machine learning tasks can be roughly divided into two categories
 
-1. Predictive Tasks
-2. Descriptive Tasks
-
+1. Supervised-Learning/Predictive Tasks
+2. Unsupervised-Learning/Descriptive Tasks
 
 ## The Challenges
 
@@ -52,4 +70,5 @@ https://en.wikipedia.org/wiki/Anomaly_detection
 
 ## References
 
-*Introduction to Data Mining* by Tan, Steinbach, and Kumar
+* *Introduction to Data Mining* by Tan, Steinbach, and Kumar
+* *Stack exchange discussion* http://stats.stackexchange.com/questions/5026/what-is-the-difference-between-data-mining-statistics-machine-learning-and-ai
