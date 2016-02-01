@@ -1,12 +1,12 @@
-# Machine Learning 101
+# Machine Learning 101 (for computational-linguistics)
 
 ## Introduction
 
-The goal of this brief overview is to familiarize 
+The goal of this brief overview is to familiarize the audience (the computational linguistics club) with some of the ideas of machine learning and the aspects of natural language processing which are innately useful.
 
 A quick word on terminology:
 
-The terms *data mining*, *machine learning*, *artificial intelligent*, *statistics, etc... are words that often bandied about, and while they may seem inately complicated, the general ideas and goals behind each field are relatively easily communicated.
+The terms **data mining**, **machine learning**, **artificial intelligent**, **statistics**, etc... are words that often bandied about, and while they may seem inately complicated, the general ideas and goals behind each field are relatively easily communicated.
 
 Generally speaking, there is a good deal of overlap in each field and 
 
