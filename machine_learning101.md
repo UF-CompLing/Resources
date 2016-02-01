@@ -1,8 +1,8 @@
 # Machine Learning 101
 
-
-
 ## Introduction
+
+The goal of this brief overview is to familiarize 
 
 A quick word on terminology:
 
@@ -41,6 +41,8 @@ https://en.wikipedia.org/wiki/Cluster_analysis
 https://en.wikipedia.org/wiki/Association_rule_learning
 
 #### Predictive Modeling
+
+https://en.wikipedia.org/wiki/Predictive_modelling
 
 #### Anomaly Detection
 
