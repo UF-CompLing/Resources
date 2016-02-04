@@ -24,7 +24,7 @@ Another way to think about these fields is by the degree of automation that is s
 * **Machine Learning:** programming with the end goal of allowing machines/processes to improve on their own, without human intervention
 * **Artificial Intelligence:** the stretch goal machine learning, complete automation
 
-**Example** To use a single example to highlight the comparison, imagine a scenario where a researcher might be trying to monitor seismic events (earthquakes) and predict their occurence and magnitude. Each field might have its own approach.
+To use a single example to highlight the comparison, imagine a scenario where a researcher might be trying to monitor seismic events (earthquakes) and predict their occurence and magnitude. Each field might have its own approach.
 
 **A Statistician** might try and model the distrubtion of existing data, characterize that distribution in a way that is familiar (maybe a using a gamma distribution) and make predictions from that. Beyond that, **a Statistician** might build a time series model using collected data to make more accurate predictions with more details.
 
@@ -42,7 +42,7 @@ So what did Arthur Samuel's quote mean when he says, "give computers the ability
 
 ## The Tasks
 
-All machine learning tasks can be roughly divided into two categories
+All machine learning tasks can be roughly divided into two categories.
 
 1. Supervised-Learning/Predictive Tasks
 
@@ -54,29 +54,35 @@ Unsupervised tasks are those in which the characteristics of the data are unknow
 
 **Example 1** I would like to carry out a series of analyses on stock data which I've collected, perhaps the stock values of 500 companies from January 1st to January 21st collected every 30 seconds (this is actually somewhat poor resolution for stock data).
 
-If I wanted to try and identify groups of stocks (within the 500 I have data on) that would be an unsupervised learning task, because I don't know what these potential groups look like. I'm hoping that whatever method I'm using will be able to identify these groups based solely on their attributes represented in the data.
+If I wanted to try and identify groups of stocks (within the 500 I have data on) that would be an unsupervised learning task, because I don't know what these potential groups look like. I'm hoping that whatever method I'm using will be able to identify these groups based solely on their attributes represented in the data. Again, the goal here is identify a characteristic(s) of the stock data in the form of unknown groupings of stocks.
 
-However if I knew that within my data about stocks that there were 3 different groups: small, medium, and large companies for instance and that each fell within a certain range of stock price, then the task of trying to identify groups of stocks could be considered a supervised learning task, because I'm classifying using existing data, **training data**.
+However if I knew that within my data about stocks that there were 3 different groups: financial, technology, and energy companies for instance, then the task of trying to identify the members of each group of stocks could be considered a supervised learning task, because I'm trying to make a prediction based off of known characteristics of the data.
 
-**Example 2** A potentially more relevant example might be the task of part-of-speech (POS) tagging in **Natural Language Processing**. Using existing knowledge about words to try and label them might be considered **supervised learning**, but if you just tried to group them based on their position in relation to each then the task could be considered **unsupervised learning**.
+**Example 2** A potentially more relevant example might be the task of part-of-speech (POS) tagging in **Natural Language Processing**. Trying to predict the part-of-speech of the next word a sequence would be a **supervised learning** task, because I'm using information about preceding words and their characteristics (POS) to make my predictions. On the other hand, pretending you don't know what potential categories there are for POS tagging and trying to identify the parts-of-speech of words based on their positioning would be **unsupervised learning** because you're trying to describe the data without any outside knowledge.
+
+A final word on this, the lines between **supervised** and **unsupervised learning** are often incredibly vague and hard to define. Technically, **semi-supervised learning** is another category of its own, but the concepts discussed above are good rules of thumb.
 
 ## The Challenges
 
 This can get technical really quickly, but I'll try and be brief. 
 
-Ideally, the data is always perfect, you already know the model/method which fits the problem, and there are no problems whatsoever in getting actionable results. Sadly, **This never happens**.
+Ideally, the data is always perfect, you already know the model/method which fits the problem, and there are no problems whatsoever in getting actionable results. Sadly, **this never happens**.
 
-Data Mining is always a human-guided task because of these kinds of complications: dirty data, bad models, unclear results, code bugs, etc. All of these problems apply to machine learning as well, except that there is the hope that, because only very specific problems are being handled, that a system can be built, tested, and left to run on its own after extensive testing.
+Data Mining is always a human-guided task because of these kinds of complications: dirty data, bad models, unclear results, code bugs, etc. All of these problems apply to machine learning as well, except that there is the hope that, because you're trying to build a system to handle very specific problems, that said system can be built, tested, and allowed to run on its own after/if its shown to work. 
 
+In short, data mining requires a degree of intuition because you don't necessarily know the end goal. Machine learning typically has clear end goals. Again, these are broad generalizations, but essentially correct.
 
+Here's an overview of typical challenges from an exceedingly brief, non-technical perspective.
 
-* **Scalability**: bigger problems take longer, and they often take exponentially longer
-* **High Dimensionality**: how do you represent something that exists in more than 3 dimensions? how do you choose what to keep
-* **Heterogeneous and Complex Data**
-* **Data Ownership and Distribution**
-* **Non-Traditional Analysis**
+* **Scalability**: Bigger problems take longer, and they often take exponentially longer to reach solutions.
+* **High Dimensionality**: How do you represent something that exists in more than 3 dimensions? If you have to choose fewer dimensions, how do you decide what to keep?
+* **Heterogeneous and Complex Data**: Data is messy, disorganized, and generally ill-disposed to be of any use, bullying it into usable quality is a full time job.
+* **Data Ownership and Distribution**: Who owns what data? How do you get the data? If it's easy to get to, is it worthwhile?
+* **Non-Traditional Analysis**: Dealing with problems that don't fit scenarios you're familiar with.
 
 ## The Methods
+
+
 
 #### Predictive Modeling
 
@@ -94,7 +100,6 @@ https://en.wikipedia.org/wiki/Cluster_analysis
 #### Association Analysis
 
 https://en.wikipedia.org/wiki/Association_rule_learning
-
 
 #### Anomaly Detection
 
