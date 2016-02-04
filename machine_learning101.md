@@ -82,26 +82,55 @@ Here's an overview of typical challenges from an exceedingly brief, non-technica
 
 ## The Methods
 
-
+A discussion of methods rapidly approaches technical "territory" which I'm trying to avoid for the sake of this discussion so, time allowing, I'll only briefly touch on the broader classes of methods some examples of each.
 
 #### Predictive Modeling
+
+A vague label for a large number of techniques involved in any number of predictive tasks.
 
 * Regression
 * Naive Bayes
 * Support Vector Machines
 * Neural Networks
 
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/400px-Linear_regression.svg.png">]
+[<img src="http://image.slidesharecdn.com/irepresentation-140417120301-phpapp01/95/tweets-classification-using-naive-bayes-and-svm-10-638.jpg?cb=1397803178">]
+
 https://en.wikipedia.org/wiki/Predictive_modelling
 
 #### Cluster Analysis
+
+Cluster analysis is exactly what it sounds like, typically involving trying to find clusters/groups in the data based on their relative closeness or shape.
+
+* K-means
+* DBSCAN
+* Hierarchical
+
+[<img src="http://blog.mpacula.com/wp-content/uploads/2011/04/kmeans1.png">]
+[<img src="http://www.hypertextbookshop.com/dataminingbook/public_version/artifacts/images/pictures/chpt4interSec4Fig4.jpg">]
+[<img src="http://www.hypertextbookshop.com/dataminingbook/public_version/artifacts/images/pictures/chpt4interSec4Fig5.jpg">]
 
 https://en.wikipedia.org/wiki/Cluster_analysis
 
 #### Association Analysis
 
+In a nutshell, association analysis is the identification of groups of items that occur together/have similar characteristics.
+
+* Apriori
+* Eclat
+* FP-growth
+
+[<img src="http://web.fhnw.ch/personenseiten/taoufik.nouri/Data%20Mining/Course/Course4/DM-Par14.gif">]
+[<img src="http://image.slidesharecdn.com/lecture13-090305022154-phpapp01/95/lecture13-association-rules-15-728.jpg?cb=1236219721">]
+
 https://en.wikipedia.org/wiki/Association_rule_learning
 
 #### Anomaly Detection
+
+Anomaly detection often comes as a by-product of other methods, but is a separate problem in its own right. The premise being that if normally, when you want to make a good model, you identify the good data for predicting/classifying, you've also identified that which is bad, or anamolous.
+
+[<img src="https://statistics.laerd.com/spss-tutorials/img/lr/outliers.png">]
+[<img src="http://web.fhnw.ch/personenseiten/taoufik.nouri/Data%20Mining/Course/Course4/DM-Par14.gif">]
 
 https://en.wikipedia.org/wiki/Anomaly_detection
 
