@@ -141,10 +141,11 @@ So why is any of this important to you?
 
 
 
-## References
+## References and Readings
 
 * *Introduction to Data Mining* by Tan, Steinbach, and Kumar
 * *Data Mining vs. Machine Learning (and other fields)* http://stats.stackexchange.com/questions/5026/what-is-the-difference-between-data-mining-statistics-machine-learning-and-ai
 * *Supervised vs. Unsupervised* https://www.quora.com/What-is-the-difference-between-supervised-and-unsupervised-learning-algorithms
 * *A Wiki Breakdown of Alan Turing's seminal paper on AI, "Computing Machinery and Intelligence* https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence
 * *The difference between hidden Markov models and Markov chains* http://stats.stackexchange.com/questions/20429/what-are-the-differences-between-hidden-markov-models-and-neural-netwo
+* *Visual Intro to Machine Learning* http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
