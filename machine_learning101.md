@@ -9,10 +9,10 @@ The goal of this brief overview is to familiarize the audience with some of the 
 
 What this means, I'll explain shortly, but I'd first like to give a quick few words on terminology:
 
-The terms **data mining**, **machine learning**, **artificial intelligence**, and **statistics**, etc... are words that often bandied about as kinds of "catch-all" labels, and while they may seem inately complicated, the general ideas and goals behind each field are relatively easily communicated and distinguished.
+The terms **data mining**, **machine learning**, **artificial intelligence**, and **statistics**, etc... are words that often bandied about as kinds of "catch-all" labels, and while they may seem innately complicated, the general ideas and goals behind each field are relatively easily communicated and distinguished.
 
 * **Data Mining** refers to the process by which useful information is "mined" from data, typically by using sophisticated algorithms and procedures, many of which come from **machine learning**.
-* **Machine Learning** refers to the subset of problems encounted in trying to build processes and machines which are able to improve at their given task over time (as they acquire more data). An extreme expression of this is the study of **Artificial Intelligence**.
+* **Machine Learning** refers to the subset of problems encountered in trying to build processes and machines which are able to improve at their given task over time (as they acquire more data). An extreme expression of this is the study of **Artificial Intelligence**.
 * **Statistics** itself is only tangentially related in that it is the field which substantiates a lot of the ideas and math behind the algorithms used in the fields mentioned above.
 
 Another way to think about these fields is by the degree of automation that is sought.
@@ -24,9 +24,9 @@ Another way to think about these fields is by the degree of automation that is s
 * **Machine Learning:** programming with the end goal of allowing machines/processes to improve on their own, without human intervention
 * **Artificial Intelligence:** the stretch goal machine learning, complete automation
 
-To use a single example to highlight the comparison, imagine a scenario where a researcher might be trying to monitor seismic events (earthquakes) and predict their occurence and magnitude. Each field might have its own approach.
+To use a single example to highlight the comparison, imagine a scenario where a researcher might be trying to monitor seismic events (earthquakes) and predict their occurrence and magnitude. Each field might have its own approach.
 
-**A Statistician** might try and model the distrubtion of existing data, characterize that distribution in a way that is familiar (maybe a using a gamma distribution) and make predictions from that. Beyond that, **a Statistician** might build a time series model using collected data to make more accurate predictions with more details.
+**A Statistician** might try and model the distribution of existing data, characterize that distribution in a way that is familiar (maybe a using a gamma distribution) and make predictions from that. Beyond that, **a Statistician** might build a time series model using collected data to make more accurate predictions with more details.
 
 **A Data Scientist** (or Data Miner, but that sounds dumb) would have the know how to employ a system that regularly (every second/minute/day) updates itself with the current seismic data, from which the **Data Scientist** can test different models to detect seismic anomalies and make predictions.
 
