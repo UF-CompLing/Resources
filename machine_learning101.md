@@ -1,13 +1,11 @@
-# Machine Learning(/data mining) 101
+# Machine Learning(and/or Data Mining) 101
 
 ## Introduction
 
-The goal of this brief overview is to familiarize the audience with some of the key ideas of machine learning as well as to point out some of the applications in which natural language processing is either useful or absolutely necessary.
+The goal of this brief overview is to familiarize the audience with some of the key ideas of machine learning as well as, at the end, to point out some of the applications in which natural language processing is either useful or absolutely necessary.
 
 > "(Machine Learning) is a Field of study that gives computers the ability to learn without being explicitly programmed."
 > Arthur Samuel, 1959
-
-What this means, I'll explain shortly, but I'd first like to give a quick few words on terminology:
 
 The terms **data mining**, **machine learning**, **artificial intelligence**, and **statistics**, etc... are words that often bandied about as kinds of "catch-all" labels, and while they may seem innately complicated, the general ideas and goals behind each field are relatively easily communicated and distinguished.
 
@@ -34,9 +32,7 @@ To use a single example to highlight the comparison, imagine a scenario where a 
 
 Keep in mind these are broad generalizations, but can be useful distinctions when comparing fields.
 
-So what did Arthur Samuel's quote mean when he says, "give computers the ability to learn without being explicitly programmed."? He means that given very specific problems, it is possible to allow a computer to improve at a task in such a way that it "learns" on its own, using much the same methods that have been studied in other fields.
-
-** TL;DR Data Mining = Machine Learning with different goals. Data Mining generally involves finding new information from data or building better models beyond those that exist. Machine Learning seeks to allow machines to improve in their ability to carry out tasks the more they do them. Artificial Intelligence and Statistics lend many ideas to both fields**
+**TL;DR:** Data Mining = Machine Learning with different goals. Data Mining generally involves finding new information from data or building better models beyond those that exist. Machine Learning seeks to allow machines to improve in their ability to carry out tasks the more they do them. Artificial Intelligence and Statistics lend many ideas to both fields
 
 [A discussion of these fields and their relations](http://stats.stackexchange.com/questions/5026/what-is-the-difference-between-data-mining-statistics-machine-learning-and-ai)
 
@@ -44,11 +40,11 @@ So what did Arthur Samuel's quote mean when he says, "give computers the ability
 
 All machine learning tasks can be roughly divided into two categories.
 
-1. Supervised-Learning/Predictive Tasks
+* **Supervised-Learning/Predictive Tasks**
 
 Supervised tasks are those in which the characteristics of the data are known, but a machine or analyst is seeking to predict future outcomes.
 
-2. Unsupervised-Learning/Descriptive Tasks
+* **Unsupervised-Learning/Descriptive Tasks**
 
 Unsupervised tasks are those in which the characteristics of the data are unknown, and a machine or analyst wants to identifying those unknown characteristics.
 
@@ -134,7 +130,14 @@ Anomaly detection often comes as a by-product of other methods, but is a separat
 
 https://en.wikipedia.org/wiki/Anomaly_detection
 
-## The Take-Away i.e. "Why Do We Care?"
+## The Take-Away
+
+So why is any of this important to you?
+
+* Any sophisticated work in computational linguistics will run across these terms and ideas, making at least a cursory knowledge valuable.
+* Cleaning and preparing any kind of linguistics data relies heavily on some of the topics we've covered: regular expressions, tokenization, etc. and the fact is the cleaning and preparation often take >=80% of the time and any particular project.
+* Often people will try and make what they're working on sound more complicated than it by using buzz words, of which machine learning is one, being able to call people on their nonsense is an invaluable skill.
+* **For fun and profit:** a lot of this stuff is rather cool and especially interesting and being able to use some of the methods and ideas discussed looks great with employers.
 
 
 
@@ -144,4 +147,4 @@ https://en.wikipedia.org/wiki/Anomaly_detection
 * *Data Mining vs. Machine Learning (and other fields)* http://stats.stackexchange.com/questions/5026/what-is-the-difference-between-data-mining-statistics-machine-learning-and-ai
 * *Supervised vs. Unsupervised* https://www.quora.com/What-is-the-difference-between-supervised-and-unsupervised-learning-algorithms
 * *A Wiki Breakdown of Alan Turing's seminal paper on AI, "Computing Machinery and Intelligence* https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence
-* *The difference between hidden Markov models and Markov chains* http://stats.stackexchange.com/questions/20429/what-are-the-differences-between-hidden-markov-models-and-neural-networks
+* *The difference between hidden Markov models and Markov chains* http://stats.stackexchange.com/questions/20429/what-are-the-differences-between-hidden-markov-models-and-neural-netwo
