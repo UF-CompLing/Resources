@@ -1,5 +1,5 @@
 # Methods of word normalization
-#### An important step in data mining
+An important step in data mining
 
 ---
 
@@ -104,12 +104,12 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem import WordNetLemmatizer
 
 # initialize things
-in = "Hello there, stranger. Aren't you glad to read me?"
-in = '' # blank for now
+_in = "Hello there, stranger. Aren't you glad to read me?"
+_out = '' # blank for now
 Lemmatizer = WordNetLemmatizer()
 
-# split up the sentences
-sentences = sent_tokenize(in)
+# split up the sentences. Also make them lower case
+sentences = sent_tokenize(_in).toLower()
 
 # run through each sentence
 for sentence in sentences:
@@ -124,12 +124,12 @@ for sentence in sentences:
         lemmatized = wnl.lemmatize(word)
         
         # add space before word, if not first word
-        if out is not '':
-            out += ' '
+        if _out is not '':
+            _out += ' '
         
         # add this to the output string
-        out += lemmatized
+        _out += lemmatized
     
     # end of sentence
-    out += ". "    
+    _out += ". "    
 ```
