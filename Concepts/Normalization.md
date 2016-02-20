@@ -34,6 +34,7 @@ sent_tokenize_list = sent_tokenize(sentence)
 [Grammarly's explanation](http://tech.grammarly.com/blog/posts/How-to-Split-Sentences.html)
 [Dive into NLTK: Sentence Tokenizing](http://textminingonline.com/dive-into-nltk-part-ii-sentence-tokenize-and-word-tokenize)
 
+![Appropriate XKCD](../images/Concepts/Normalization/XKCD.png)
 
 ## Word Tokenizing
 
@@ -58,6 +59,8 @@ from nltk.tokenize import word_tokenize
 sentence = "Buffalo buffalo buffalo Buffalo buffalo Buffalo buffalo"
 tokenized_words = word_tokenize(sentence)
 ```
+
+![Word Normalizing](../images/Concepts/Normalization/WordTokenizing.png)
 
 #### References
 [Stanford NLP Explanation of Word Normalization](http://nlp.stanford.edu/IR-book/html/htmledition/tokenization-1.html)
@@ -90,6 +93,7 @@ wnl = WordNetLemmatizer()
 word = wnl.lemmatize("Aren't")
 ```
 
+![Lemmatizing](../images/Concepts/Normalization/lemmatizing.jpg)
 
 ## Putting it all together
 Here's a sample code chunk, which does everything discussed in this document!
