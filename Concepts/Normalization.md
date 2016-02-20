@@ -70,15 +70,23 @@ tokenized_words = word_tokenize(sentence)
 **The problem**: Sometimes when finding the frequencies of certain pieces of text, we find multiple forms of the same word.
 
 A noun:
+
 1. John
+
 2. John's
+
 3. Johns
+
 4. john
 
 A verb:
+
 1. is
+
 2. are
+
 3. am
+
 4. being
 
 #### What do we do?
